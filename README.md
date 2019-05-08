@@ -1,4 +1,4 @@
-# Cockpit-NumberField
+# CockpitCMS-NumberField
 
 Number field Cockpit CMS Add-On
 
