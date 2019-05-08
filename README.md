@@ -4,7 +4,7 @@ Number field Cockpit CMS Add-On
 
 ## Installation
 
-Download zip and extract to 'your-cockpit-docroot/addons' (e.g. cockpitcms/addons/numberfield)
+Download zip and extract to 'your-cockpit-docroot/addons' (e.g. cockpitcms/addons/numberfield).  
 _Please note that the folder name must be `numberfield`._
 
 ## Usage
