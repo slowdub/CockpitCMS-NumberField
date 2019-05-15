@@ -1,6 +1,6 @@
 <field-number>
     <div class="uk-position-relative field-number-container">
-        <input ref="input" class="uk-width-1-1" bind="{opts.bind}" type="number"  placeholder="{opts.placeholder}">
+        <input ref="input" class="uk-width-1-1" bind="{opts.bind}" type="number"  placeholder="{opts.placeholder}" value="{opts.default}">
     </div>
 
     <script>
@@ -10,7 +10,7 @@
 
             opts.required && this.refs.input.setAttribute('required', 'required');
 
-            ['max', 'min', 'placeholder', 'readonly', 'step'].forEach( function(key) {
+            ['max', 'min', 'placeholder', 'readonly', 'step', 'default'].forEach( function(key) {
                 opts[key] && this.refs.input.setAttribute(key, opts[key]);
             }.bind(this));
 
