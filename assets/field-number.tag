@@ -1,6 +1,6 @@
 <field-number>
     <div class="uk-position-relative field-number-container">
-        <input ref="input" class="uk-width-1-1" bind="{opts.bind}" type="number"  placeholder="{opts.placeholder}" value="{opts.default}">
+        <input ref="input" class="uk-width-1-1" bind="{opts.bind}" type="number"  placeholder="{opts.placeholder}" defaultValue="{opts.default}">
     </div>
 
     <script>
