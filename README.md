@@ -13,6 +13,7 @@ Upon installation the new `Number` field type should be present in the list of f
 List of options (all optional):
 ```
 {
+  "default": Number,
   "min": Number,
   "max": Number,
   "step": Number,
